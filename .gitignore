@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 node_modules/
 .idea/
 .vscode/
@@ -41,3 +42,8 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 >>>>>>> 098d931e741e0fccfc9df9872d6916f0b1050b77
+=======
+node_modules/
+.idea/
+.vscode/
+>>>>>>> b61d2db2445ae634b467c1a9e47b232f4c009b98
