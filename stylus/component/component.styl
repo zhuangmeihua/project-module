@@ -1,0 +1,251 @@
+body
+  margin 0
+  padding 0
+  background-color #efefef
+.header
+  display flex
+  height 50px
+  z-index 5
+  width 100%
+  color #19151a
+  background-color #fff
+  .back
+    display block
+    padding 0 15px
+    width 65px
+    height 50px
+    line-height 50px
+    font-style normal
+  .header_title
+    flex 1
+    padding-right 80px
+    line-height 50px
+    text-align center
+
+.search_box
+  z-index 5
+  margin-top 15px
+  padding 0 15px
+  height 30px
+  .search_input
+    float left
+    padding 0 15px
+    width 200px
+    height 30px
+    border-radius 5px
+    background-color #fff
+    line-height 30px
+    color #999
+    .icon-search
+      display inline-block
+      margin-left: -5px;
+      width 30px
+      height 30px
+      background url("../../img/component/content_search_icon@2x.png") no-repeat center
+      background-size 16px
+      vertical-align bottom
+    .icon-del
+      display inline-block
+      margin-left: 80px
+      width 30px
+      height 30px
+      background url("../../img/component/content_delet_icon@2x.png") no-repeat center
+      background-size 16px
+      vertical-align bottom
+   .add
+     float left
+     height 30px
+     line-height 30px
+  .icon-add
+      display inline-block
+      margin-left: 0
+      width 30px
+      height 30px
+      background url("../../img/component/content_plus_icon@2x.png") no-repeat center
+      background-size 16px
+      vertical-align bottom
+.info
+  margin-top 15px
+  background-color #fff
+  clear both
+  .info_detail
+    padding 15px
+    height 210px
+    background-color #fff
+    .icon-info
+      display inline-block
+      width 8px
+      height 8px
+      border-radius 50%
+      background-color lime
+  .info_message
+    display block
+    list-style none
+    margin 0
+    margin-left 20px
+    margin-top 10px
+    padding 0
+    .info_li
+      position relative
+      color #363636
+      height 26px
+      padding 0 15px
+      line-height 26px
+      &:after
+        content ''
+        position absolute
+        right 0
+        bottom 0
+        left 60px
+        display block
+        height 1px
+        background-color #cecece
+      &:last-child:after
+        display none
+
+.content
+  padding 15px
+  width 100%
+  height 155px
+  background-color #fff
+
+  .icon-content
+      display inline-block
+      width 8px
+      height 8px
+      border-radius 50%
+      background-color #2ab4ff
+  p
+    margin 10px 0 10px 30px
+.radio_box
+    position relative
+    margin-left 10px
+
+.radio_block
+  display inline-block
+  margin-top -5px
+  height 24px
+  line-height 24px
+
+  .radio_btn
+    display inline-block
+    width 12px
+    height 12px
+    margin 4px
+    border 2px solid #ff6666
+    border-radius 50%
+    vertical-align bottom
+   &.selected
+     .icon
+       display inline-block
+       width 4px
+       height 4px
+       margin 2px
+       border 2px solid transparent
+       border-radius 50%
+       background-color #ff6666
+
+.select_box
+  position relative
+  margin-top 15px
+  margin-left 65px
+  width 80%
+  height 45px
+
+  .jz
+    float left
+    margin-left -65px
+    height 40px
+    line-height 40px
+  .select-title
+    float left
+    position relative
+    left 10px
+    width 80%
+    height 40px
+    padding 0 10px
+    background-color #efefef
+    border 1px solid #cecece
+    border-radius 5px
+    line-height 40px
+    &:before
+    &:after
+      content ''
+      position absolute
+      top 14px
+      right 23px
+      display block
+      width 2px
+      height 12px
+      background-color #ababab
+      transform rotate(-45deg)
+    &:after
+      right 15px
+      transform rotate(45deg)
+
+  .select-list
+    display none
+    position absolute
+    top 40px
+    left 10px
+    width 86.5%
+    z-index 5
+    border 1px solid #cecece
+    border-radius 0 0 5px 5px
+    background-color #efefef
+    list-style none
+    margin 0
+    padding 0
+
+    .select-li
+      position relative
+      width 100%
+      height 40px
+      padding 0 10px
+      line-height 40px
+      &:after
+        content ''
+        position absolute
+        right 0
+        bottom 0
+        left 10px
+        display block
+        width 88%
+        height 1px
+        background-color #cecece
+      &:last-child:after
+        display none
+
+.imgDisplay
+  display flex
+  padding 0 15px
+  background-color #fff
+  .icon-img
+    flex 1
+    margin-right 10px
+    height 60px
+    line-height 60px
+    text-align center
+    background-color #89cfed
+  .add-img
+    margin-right 0
+    background-color #d7d9e6
+
+.bt_box
+  display flex
+  height 60px
+  margin-top 10px
+  padding 0 15px
+  background-color #fff
+
+  .btn_login
+    display block
+    margin-top 10px
+    width 100%
+    height 40px
+    border none
+    border-radius 5px
+    background-color #ed692b
+    color #fff
+    font-size 1.1rem
+    line-height 40px
