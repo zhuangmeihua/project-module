@@ -77,6 +77,7 @@ $queyrBlock.on('tap', function(){
         $('.down-box').hide().eq(index).show();
     }
 });
+/*价格选择框*/
 $('.query_price').on('tap', function(){
     var $self = $(this);
     if($self.hasClass('active-down')){
@@ -89,7 +90,21 @@ $('.query_price').on('tap', function(){
         console.log('down');
         $self.addClass('active-down');
     }
-})
+});
+/*底部导航拦跳转*/
+var $msgBar = $('.end_four');
+$msgBar.on('click',function () {
+    location.href = ('../msg/msg_demand.html');
+});
+var $woBar = $('.end_five');
+$woBar.on('click',function () {
+   location.href = ('../info/beforesignin.html');
+});
+var $appointBar = $('.end_two');
+$appointBar.on('click',function () {
+    location.href = ('../appointment/appointment.html');
+});
+
 
 
 

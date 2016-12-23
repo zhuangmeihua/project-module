@@ -9,7 +9,7 @@ var express = require("express");
 var proxy = require('http-proxy-middleware');
 
 //定义通过 /api 访问的请求，转发到指定路径   //跨域
-// app.use('/api',proxy({
+// app.use('/api',proxy({ //做代理，不是直接跨域
 //     target:'http://122.10.30.153:9901',
 //     pathRewrite:{
 //         '^/api':'/'

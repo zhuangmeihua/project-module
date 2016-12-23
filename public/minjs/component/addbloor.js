@@ -1,0 +1,1 @@
+var $back=$(".icon-back");$back.on("click",function(){window.history.back(-1)});

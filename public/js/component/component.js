@@ -26,5 +26,15 @@ $selectList.find('.select-li').on('tap',function () {
     $parent.hide();
 });
 
+/*顶部返回icon*/
+var $back = $('.back');
+$back.on('click',function () {
+    window.history.back(-1);
+});
+var $add = $('.add');
+$add.on('click',function () {
+    location.href = ('addbloor.html')
+});
+
 
 

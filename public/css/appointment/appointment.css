@@ -3,43 +3,10 @@ body {
 }
 .tab_box {
   height: 32px;
+  line-height: 32px;
+  text-align: center;
   padding: 9px 0;
   background-color: #fff;
-}
-.tab_bar {
-  display: flex;
-  width: 80%;
-  height: 30px;
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  border-radius: 5px;
-  border: 1px solid #ed692b;
-  color: #ed692b;
-}
-.tab_bar .tab_bar-cell {
-  position: relative;
-  flex: 1;
-  line-height: 30px;
-  text-align: center;
-}
-.tab_bar .tab_bar-cell:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: block;
-  width: 1px;
-  height: 30px;
-  background-color: #ed692b;
-}
-.tab_bar .tab_bar-cell:last-child:after {
-  content: '';
-  display: none;
-}
-.tab_bar .tab_bar-cell.active {
-  background-color: #ed692b;
-  color: #fff;
 }
 .demand_cells {
   padding: 15px;
@@ -116,36 +83,33 @@ body {
 .bottom-list .end_one {
   height: 57px;
   flex: 1;
-  background: url("../../img/index/bottom_nor_icon04@2x.png") no-repeat center;
+  background: url("../../img/appointment/bottom_nor_icon04@2x.png") no-repeat center;
   background-size: 22px;
   margin-top: -25px;
 }
 .bottom-list .active_one {
   height: 57px;
   flex: 1;
-  background-size: 22px;
   margin-top: -25px;
   color: #b4b4b4;
 }
 .bottom-list .end_two {
   height: 57px;
   flex: 1;
-  background: url("../../img/index/bottom_nor_icon03@2x.png") no-repeat center;
+  background: url("../../img/appointment/bottom_press_icon03@2x.png") no-repeat center;
   background-size: 22px;
   margin-top: -25px;
 }
 .bottom-list .active_two {
   height: 57px;
   flex: 1;
-  background: url("../../img/index/bottom_press_icon03@2x.png") no-repeat center;
-  background-size: 22px;
   margin-top: -25px;
   color: #b4b4b4;
 }
 .bottom-list .end_three {
   height: 57px;
   flex: 1;
-  background: url("../../img/index/bottom_icon05@2x.png") no-repeat center;
+  background: url("../../img/appointment/bottom_icon05@2x.png") no-repeat center;
   background-size: 38px;
   margin-top: -18px;
   position: relative;
@@ -170,29 +134,27 @@ body {
 .bottom-list .end_four {
   height: 57px;
   flex: 1;
-  background: url("../../img/msg/bottom_press_icon02@2x.png") no-repeat center;
+  background: url("../../img/appointment/bottom_nor_icon02@2x.png") no-repeat center;
   background-size: 22px;
   margin-top: -25px;
 }
 .bottom-list .active_four {
   height: 57px;
   flex: 1;
-  background: url("../../img/msg/bottom_nor_icon02@2x.png") no-repeat center;
-  background-size: 22px;
   margin-top: -25px;
   color: #b4b4b4;
 }
 .bottom-list .end_five {
   height: 57px;
   flex: 1;
-  background: url("../../img/msg/bottom_nor_icon01@2x.png") no-repeat center;
+  background: url("../../img/appointment/bottom_nor_icon01@2x.png") no-repeat center;
   background-size: 22px;
   margin-top: -25px;
 }
 .bottom-list .active_five {
   height: 57px;
   flex: 1;
-  background: url("../../img/msg/bottom_press_icon01@2x.png") no-repeat center;
+  background: url("../../img/appointment/bottom_press_icon01@2x.png") no-repeat center;
   background-size: 22px;
   margin-top: -25px;
   color: #b4b4b4;
@@ -211,14 +173,14 @@ body {
   font-size: 12px;
   color: #b4b4b4;
 }
-.bottom-list .four {
+.bottom-list .two {
   color: #ea5404;
   position: absolute;
   top: 28px;
   margin-left: 26px;
   font-size: 12px;
 }
-.bottom-list .four1 {
+.bottom-list .two1 {
   color: #ea5404;
   position: absolute;
   top: 28px;
