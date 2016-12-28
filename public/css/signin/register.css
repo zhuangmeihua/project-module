@@ -1,0 +1,108 @@
+* {
+  outline: none;
+}
+body {
+  background-color: #efefef;
+}
+.header {
+  height: 35px;
+  background-color: #fff;
+  line-height: 35px;
+}
+.header .icon-back {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 35px;
+  height: 35px;
+  background: url("../../../public/img/signin/nav_back_icon@2x.png") no-repeat center;
+  background-size: 8px 14px;
+}
+.header .header-title {
+  display: inline-block;
+  width: 100%;
+  color: #ed692b;
+  text-align: center;
+}
+.content {
+  margin-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background: #fff;
+}
+.content .cell {
+  position: relative;
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #d7d9e6;
+}
+.content .cell .icon-info {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url("../../../public/img/signin/content_ID_icon@2x.png") no-repeat left 10px center;
+  background-size: 20px 20px;
+}
+.content .cell .yzpass {
+  background: url("../../../public/img/signin/content_verify_icon@2x.png") no-repeat left 10px center;
+  background-size: 15px 20px;
+}
+.content .cell .btn_code {
+  padding: 0 5px;
+  margin-top: 10px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ed692b;
+}
+.content .cell .pass {
+  background: url("../../../public/img/signin/content_password_icon@2x.png") no-repeat left 10px center;
+  background-size: 20px 20px;
+}
+.content .cell .sf {
+  background: url("../../../public/img/signin/content_position_icon@2x.png") no-repeat left 10px center;
+  background-size: 20px 20px;
+}
+.content .cell .xx {
+  position: absolute;
+  left: 320px;
+  background: url("../../../public/img/content_icon02_nor@2x.png") no-repeat left 10px center;
+  background-size: 10px 10px;
+}
+.content .cell .infoInp {
+  flex: 1;
+  height: 38px;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  border: none;
+}
+.bt_box {
+  height: 40px;
+  margin-top: 20px;
+  padding: 0 15px;
+  text-align: center;
+}
+.bt_box .btn_login {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c7c7c7;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 40px;
+}
+.bt_box .bt-reg {
+  padding-left: 10px;
+}
+.bt_box .bt-user {
+  padding-right: 10px;
+  color: #ed692b;
+}
