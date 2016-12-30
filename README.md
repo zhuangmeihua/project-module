@@ -32,7 +32,7 @@
 * 启动项目
 
     ``` 
-     node sever.js
+     node server.js
     ```
     
 * 监听
